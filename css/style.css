@@ -1,0 +1,325 @@
+/* ===========================
+       GLOBAL STYLES
+=========================== */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ===========================
+       NAVBAR
+=========================== */
+
+.navbar {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: gold !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white ;
+    background: black;
+    transform: translateY(-3px);
+}
+
+.nav-link:hover {
+    color: gold;
+    transform: translateY(-3px);
+}
+
+
+
+.navbar-toggler {
+    border-radius: 10px;
+}
+
+
+.navbar-toggler i {
+    color: gold;          
+    font-size: 28px;
+}
+
+
+.navbar-toggler:hover i {
+    color: orange;
+    text-shadow: 0 0 8px gold;
+}
+
+/* Home */
+
+#Home {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.name h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.name h2 {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.btns button {
+    margin: 5px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    background: gold;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btns button:hover {
+    background: orange;
+    transform: translateY(-3px);
+}
+
+.pic img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid gold;
+}
+
+/* ===========================
+       ABOUT SECTION
+=========================== */
+
+#About {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+}
+
+#About img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.hero p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: auto;
+}
+
+.details p {
+    text-align: left;
+    margin: 5px 0;
+}
+
+/* ===========================
+       SKILLS SECTION
+=========================== */
+
+#Skills {
+    padding: 60px 20px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    background:white;
+    color: black;
+    width: 120px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.skill-card h6 {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px gold;
+}
+
+/* ===========================
+       PROJECTS SECTION
+=========================== */
+
+#Projects {
+    padding: 60px 20px;
+}
+
+#works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: #111;
+    width: 260px;
+    padding: 14px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-card h5 {
+    margin-top: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px gold;
+}
+
+
+/* ================= PROJECT LINKS ================= */
+
+.project-links{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.demo-btn{
+    background:#111;
+    color:#fff;
+    border:1px solid gold;
+}
+
+
+.git-btn{
+    background:#111;
+    color:#fff;
+    border:1px solid gold;
+}
+
+.demo-btn:hover{
+    background:gold;
+    color:#000;
+}
+
+.git-btn:hover{
+    background:gold;
+    color:#000;
+}
+
+
+
+/* ===========================
+       CONTACT SECTION
+=========================== */
+
+#Contact {
+    padding: 60px 20px;
+}
+
+.contact-icons a {
+    font-size: 28px;
+    margin: 15px;
+    color: gold;
+    transition: 0.3s ease;
+}
+
+.contact-icons a:hover {
+    transform: scale(1.3);
+    color: orange;
+}
+
+/* ===========================
+       SCROLL ANIMATION
+=========================== */
+
+section {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: 1s ease;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===========================
+       RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+    #Home {
+        flex-direction: column;
+    }
+
+    .pic img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #About {
+        flex-direction: column;
+    }
+
+    #About img {
+        width: 250px;
+    }
+
+    .skill-card {
+        width: 100px;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
