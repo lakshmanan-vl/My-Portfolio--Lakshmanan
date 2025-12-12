@@ -196,9 +196,7 @@ body {
     margin-top: 10px;
 }
 
-/* ===================================================
-   PROJECTS
-=================================================== */
+/* Project*/
 
 #Projects{
     padding: 80px 5%;
@@ -264,6 +262,7 @@ body {
 .btn:hover{
     opacity: 0.85;
     background-color: black;
+    color: white;
 }
 
 /* Contact*/
@@ -335,7 +334,6 @@ section.show{
 }
 
 
-#skills{
   background:#0f172a;
   padding:60px 10%;
   color:#fff;
@@ -388,3 +386,4 @@ section.show{
   border-radius:8px;
   transition:2s ease;
 }
+--> */
