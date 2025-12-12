@@ -50,9 +50,7 @@ body {
     color: gold !important;
 }
 
-/* =====================
-   HOME SECTION
-===================== */
+/* Home */
 
 .home {
   min-height: 100vh;
@@ -150,9 +148,7 @@ body {
 
 
 
-/* ===================================================
-   SKILLS
-=================================================== */
+/*Skills */
 
 #Skills{
     padding: 80px 5%;
@@ -196,7 +192,7 @@ body {
     margin-top: 10px;
 }
 
-/* Project*/
+/* Project */
 
 #Projects{
     padding: 80px 5%;
@@ -272,12 +268,6 @@ body {
     padding: 70px 15px;
 }
 
-.slog{
-    font-size: 17px;
-    margin: 8px 0 20px;
-    color: #ccc;
-}
-
 #Contact p{
     margin: 5px 0;
 }
@@ -333,57 +323,3 @@ section.show{
     }
 }
 
-
-  background:#0f172a;
-  padding:60px 10%;
-  color:#fff;
-}
-#skills h2{
-  text-align:center;
-  font-size:2.1rem;
-  margin-bottom:35px;
-}
-
-.skills-container{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-  gap:25px;
-}
-
-.skill{
-  
-  padding:18px;
-  border-radius:16px;
-  text-align:center;
-  transition:.3s ease;
-}
-.skill:hover{
-  transform:translateY(-8px);
-}
-
-.skill img{
-  width:55px;
-  margin-bottom:12px;
-}
-
-.skill h4{
-  margin-bottom:8px;
-}
-
-.bar{
-  width:100%;
-  height:7px;
-  background:#334155;
-  border-radius:8px;
-  overflow:hidden;
-}
-
-.bar span{
-  display:block;
-  height:100%;
-  width:0;
-  background:#38bdf8;
-  border-radius:8px;
-  transition:2s ease;
-}
---> */
