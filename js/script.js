@@ -51,7 +51,7 @@ const projects = [
     },
     {
         title: "Portfolio Website",
-        img: "images/portfolio.webp",
+        img: "images/portfolio3.jpg",
         live: "https://lakshmanan-vl.github.io/My-Portfolio--Lakshmanan/",
         github:"https://github.com/lakshmanan-vl/My-Portfolio--Lakshmanan"
     },
