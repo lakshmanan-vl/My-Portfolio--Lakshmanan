@@ -21,7 +21,10 @@ const skills = [
     { name: "CSS", img: "images/cssiconn..jpg" },
     { name: "JavaScript", img: "images/jsicon.jpg" },
     { name: "Bootstrap", img: "images/boot.jpg" },
-    { name: "React", img: "images/react (2).jpg" }
+    { name: "React", img: "images/react (2).jpg" },
+    { name: "SQL", img: "images/Mysql.jpg" },
+    { name: "Python", img: "images/python.jpg" },
+    { name: "Django", img: "images/django.jpg" }
 ];
 
 
@@ -64,8 +67,8 @@ const projects = [
     {
         title: "Calculator Application",
         img: "images/calc.jpg",
-        live: "https://your-username.github.io/weather-app",
-        github: "https://github.com/your-username/weather-app"
+        live: "https://lakshmanan-vl.github.io/Calculator/",
+        github: "https://github.com/lakshmanan-vl/Calculator"
     }
 ];
 
